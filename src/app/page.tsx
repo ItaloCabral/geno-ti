@@ -75,7 +75,7 @@ export default function HomePage() {
           <button className='bg-slate-200 border-[1px] border-slate-200 border-opacity-30 text-sm font-semibold bg-opacity-10 px-4 py-2 rounded-lg pointer-events-none'>Acessar</button>
         </header>
         <ParticlesContainer />
-        <section className='w-full h-3/5 mt-8'>
+        <section className='w-full h-3/5 my-16'>
           <div className='w-1/2'>
             <h1 className='text-6xl font-bold mb-4'>Seu kit de ferramentas com o poder da IA</h1>
             <p className='text-2xl text-primary-300'>Encontre as melhores soluções de geração de vídeo, fotos, texto, músicas e muito mais...</p>
