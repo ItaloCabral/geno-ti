@@ -46,10 +46,8 @@ export default function HomePage() {
   }
 
   useEffect(() => {
-    if (!shortLink) return;
-    
-    shortLinkRef.current.value = shortLink
-
+    if (!shortLinkRef.current) return
+    shortLinkRef.current.value = shortLink ?? ''
   }, [shortLink])
 
   return (
